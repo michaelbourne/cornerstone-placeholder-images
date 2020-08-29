@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Cornerstone Placeholder Images
-Plugin URI:  https://xthemetips.com
+Plugin URI:  https://michaelbourne.ca
 Description: Creates a Cornerstone/Pro Builder element for Placeholder.com images for use in layouts and mockups
-Version:     0.0.3
+Version:     0.0.4
 Author:      Michael Bourne
 Author URI:  https://ursa6.com
 License:     GPL3

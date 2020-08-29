@@ -1,10 +1,10 @@
 === Cornerstone Placeholder Images ===
 Contributors: michaelbourne
-Donate link: https://www.paypal.me/yycpro
+Donate link: https://paypal.me/yycpro
 Tags: cornerstone, x theme, themeco, x pro, pro theme, placeholder, images
 Requires at least: 4.5
-Tested up to: 4.9.4
-Stable tag: 0.0.3
+Tested up to: 5.5
+Stable tag: 0.0.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -48,6 +48,9 @@ None yet
 
 == Changelog ==
 
+= 0.0.4 =
+* Fix PHP warning
+
 = 0.0.3 =
 * Fix critical error when deleting or disabling Pro theme or Cornerstone
 
@@ -59,6 +62,9 @@ None yet
 
 
 == Upgrade Notice ==
+
+= 0.0.4 =
+Fix PHP warning
 
 = 0.0.3 =
 Fix critical error when Pro theme or Cornerstone are deactivated

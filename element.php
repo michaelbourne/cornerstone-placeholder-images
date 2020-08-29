@@ -32,9 +32,9 @@ function cspi_element_hslToHex($hsl)
     $hsl = str_replace(array('hsl(', 'hsla(', '%', ' ', ')'), '', $hsl);
     $hsl = explode(',', $hsl);
 
-    $h = ($hsl[0] > 0) ? $hsl[0] / 360 : $h;
-    $s = ($hsl[1] > 0) ? $hsl[1] / 100 : $s;
-    $l = ($hsl[2] > 0) ? $hsl[2] / 100 : $l;
+    $h = ($hsl[0] > 0) ? $hsl[0] / 360 : 0;
+    $s = ($hsl[1] > 0) ? $hsl[1] / 100 : 0;
+    $l = ($hsl[2] > 0) ? $hsl[2] / 100 : 0;
 
 
         $q = $l < 0.5 ? $l * (1 + $s) : $l + $s - $l * $s;
